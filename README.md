@@ -72,7 +72,7 @@ To enhance security, consider modifying the URL paths in the code. Follow these 
 
    ```cpp
    server.on("/controlpanel", HTTP_GET, handlePower);
-   server.on("/turnon, HTTP_GET, handleTurnOn);
+   server.on("/turnon", HTTP_GET, handleTurnOn);
   
 To somesting like:
 
