@@ -1,5 +1,10 @@
 # ESP8266 PC Power
 
+⚠️ **WARNING:** This code is **not security-hardened**.  
+Its purpose is only to keep non-technical or casual users away from the “power button.”  
+Do **not** expose this project to the internet (no port forwarding) and do **not** use it in critical environments.  
+It is intended for hobby use on a trusted local network, at your own risk.
+
 ## Overview
 
 This project uses an ESP8266 microcontroller to create a web server for remotely managing a computer's power state. It includes features like a login page, failed login handling, and a control panel for turning on the computer.
